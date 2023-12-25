@@ -15,8 +15,8 @@ def generate_otp():
 #     subject = 'OTP Verification'
 #     message = f'Your OTP for verification is: {otp}'
 def send_otp_email(email, otp):
-    from_email = 'kumawatsudama2002@gmail.com'  # Replace with your Gmail email address
-    from_password = 'Sudama@123'  # Replace with your Gmail password
+    from_email = 'your Gmail'  # Replace with your Gmail email address
+    from_password = 'Your Gmail password'  # Replace with your Gmail password
 
     subject = 'OTP Verification'
     message = f'Your OTP for verification is: {otp}'
